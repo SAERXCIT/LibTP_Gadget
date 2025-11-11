@@ -1,5 +1,4 @@
 #pragma once
-
 #include <windows.h>
 
 typedef struct {
@@ -10,6 +9,11 @@ typedef struct {
     ULONG_PTR argument4;
     ULONG_PTR argument5;
     ULONG_PTR argument6;
+    ULONG_PTR argument7;
+    ULONG_PTR argument8;
+    ULONG_PTR argument9;
+    ULONG_PTR argument10;
+    ULONG_PTR argument11;
 } NTARGS;
 
-VOID ProxyNtApi(NTARGS * args); 
+VOID ProxyNtApi(NTARGS * args);
